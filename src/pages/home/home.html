@@ -6,11 +6,9 @@
 
 <ion-content padding>
   <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <img  src="C:/Users/Micro/Desktop/anos/src/assets/imgs/stunning-roses.jpg"  dir="rtl" width="50 px" height="50 px" >
+  <img [src]="img"/>
+  <button ion-button color="primary" {click}="getpicture()"> Take Picture </button>
+  <img  src="C:/Users/Micro/Desktop/anos/src/assets/imgs/stunning-roses.jpg"  dir="rtl" width="200 px" height="200 px" />
   <p>
     Take a look at the <code>src/pages/</code> directory to add or change tabs,
     update any existing page or create new pages.
